@@ -1,6 +1,5 @@
 
 
-
 #app_header {
 position: relative;
 padding: 0.3em;
@@ -41,8 +40,28 @@ right: 0.3em;
 
 img.hero {
 margin: 1em 0;
+padding-left: 5em;
 
 }
+ul.features li {
+list-style: square;
+}
+
 div.breadcrumbs {
 padding: .5em;
 }
+
+h2.section_header {
+margin-top: 0;
+
+}
+
+.center {text-align: center}
+
+#goodbye{
+  font-size:85%;
+  
+  
+  }
+
+
