@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style type="text/css">
+
+	th.month {background-color: red; font-size:80%;}
+	td.day {text-align: center;}
+
+	</style>
+	<title>Affiliate, White Label and Job Opportunities | Breeasy.com</title>
+	<meta name="description" content="Earn commissions, license your own version of Breeasy - come work for us.">
+
+	<link rel="stylesheet" type="text/css" href="../css/reset-fonts-grids.css">
+	<link rel="stylesheet" type="text/css" href="../css/base-min.css">
+	<link rel="stylesheet" type="text/css" href="../css/breeasy.css">
+	<link rel="canonical" href="http://www.breeasy.com/opportunities" />
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript">google.load("jquery", "1");</script>
+
+	</head>
+	<body>
+    <div id="doc2"class="yui-t7">
+    	<div id="app_header">
+    	<a href="http://www.breeasy.com"><img src="../images/communicate_manage_grow.png" alt="small business productivity platform" width="400" height="53" /></a>
+    	 	<div id="promo_links">
+    	 	
+    	 	<a href="http://www.breeasy.com/plans">Save 50% on All Breeasy For Business Plans</a>
+
+    		</div>
+    	</div>
+	    <div id='hd'>
+		    <div id='navigation'>
+				<ol id="navlinks">
+					<li><a href="http://www.breeasy.com">Home</a></li>
+					<li><a href="../products/index.html">Products</a></li>
+					<li><a href="../plans/index.html">Plans and Pricing</a></li>
+					<li><a href="http://brze.me">Blog</a></li>
+					<li><a href="../articles/index.html">Articles</a></li>
+					<li><a href="index.html">Opportunities</a></li>
+					<li><a href="../about.html">About Breeasy</a></li>
+					<li><a href="https://breeasy.desk.com">Support Forum</a></li>
+					<li class="last"></li>
+					<li class="last"><a href="https://twitter.com/#!/EasyBreeasy"><img src="../images/twitter-24x24.jpg" alt="follow us on twitter" width="24" height="24" title="follow us on twitter" /></a>
+					<li class="last"><a href="feed://brze.me/feed/"><img src="../images/feed-24x24.png" alt="rss" width="24" height="24" title="Subcribe to The Breeasy Blog" /></a>
+</li>
+</li>
+				</ul>
+				
+			</div>
+			<div class="breadcrumbs"><a href="http://www.breeasy.com">Breeasy.com</a> > Opportunities</div>
+		</div> <!-- hd -->
+		<div id='bd'>
+	<form accept-charset="UTF-8" action="/users/1/expenses" class="formtastic expense" id="new_expense" method="post" novalidate="novalidate"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="BsWWcnzcJgNeBcGqDJwyp5eOJvLbzVJ8kP/qC8dhsJU=" /></div>
+
+<fieldset class="inputs"><ol>
+	<li class="select input optional" id="expense_type_input"><label class=" label" for="expense_type">Type</label><select id="expense_type" name="expense[type]">
+<option value="Standard" selected="selected">Standard</option>
+<option value="Mileage">Mileage</option></select>
+
+</li>
+<div id="standard">Standard</div>
+<div id="mileage">Mileage</div>
+
+
+
+
+</form>
+
+			</div>
+			<br>
+				<div id='ft' class="center">
+					<p id='goodbye'>copyright &copy; 2011 - 2012 Breeasy.com</p>
+    			</div>
+	    </div>
+	</div>   
+</body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function() {
+ $("#mileage").hide();
+/*  $("#standard").hide(); */
+ 
+ $('#expense_type').change(function(e) { 
+ 
+ var selected = $("#expense_type option:selected");    
+    var output = "";
+    if(selected.val() == 'Standard'){
+     $("#standard").show();
+     $("#mileage").hide();
+   
+    }
+    else
+    {
+     $("#standard").hide();
+     $("#mileage").show();
+    
+    }
+  	
+    return false;
+	
+  });
+  
+ });
+ 
+
+</script>
