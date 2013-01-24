@@ -35,7 +35,13 @@ right: 0.3em;
 
 #navlinks a {
 	color: blue;
+
 	
+}
+
+a {
+color:green;
+	text-decoration:none;
 }
 
 img.hero {
