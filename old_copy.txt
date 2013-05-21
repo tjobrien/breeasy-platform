@@ -1,0 +1,6 @@
+<h2 class='section_header'>Save 50% with our Early Bird Special!</h2>
+	    		<p>When you signup for a trial account or subscribe to one of the Breeasy for Business plans before April 30, 2013, you will receive a 50% discount!  Just enter</p>
+	    		<p>Promo Code:
+	    		<b>Early Bird</b> </p>
+	    		<p>to get your discount.  The discount applies to all paid plans.  The promo code applies to all <a href="http://app.breeasy.com">Risk Free Trial accounts started on or before March 31, 2013</a>. </p>
+	    		
